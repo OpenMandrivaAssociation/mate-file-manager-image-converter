@@ -1,7 +1,7 @@
 Summary:	Caja extension to mass resize images
 Name:		mate-file-manager-image-converter
 Version:	1.2.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/GNOME
 License:	GPLv2+
 URL:		http://pub.mate-desktop.org
@@ -13,7 +13,7 @@ BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(libglade-2.0)
 BuildRequires:	pkgconfig(libcaja-extension)
 
-Requires:	ImageMagick
+Requires:	imagemagick
 Provides:	caja-image-converter = %{version}=%{release}
 
 %description
